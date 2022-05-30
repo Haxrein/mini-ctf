@@ -4,8 +4,8 @@
 
 # Özellikleri
 
--Tüm soruların çözülmesinin ardından yarışmacılara üstünde isimlerinin yazılı olduğu sertifika verme imkanı.
--Admin paneli ile sisteme kayıtlı kullanıcıları görebilirsiniz.
+- Tüm soruların çözülmesinin ardından yarışmacılara üstünde isimlerinin yazılı olduğu sertifika verme imkanı.
+- Admin paneli ile sisteme kayıtlı kullanıcıları görebilirsiniz.
 
 # Ne ile geliştirildi?
 Python, Flask ve SQLite kullanıldı. 
