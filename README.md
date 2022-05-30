@@ -4,8 +4,8 @@
 
 # Özellikleri
 
-Tüm soruların çözülmesinin ardından yarışmacılara üstünde isimlerinin yazılı olduğu sertifika verme imkanı.
-Admin paneli ile sisteme kayıtlı kullanıcıları görebilirsiniz.
+-Tüm soruların çözülmesinin ardından yarışmacılara üstünde isimlerinin yazılı olduğu sertifika verme imkanı.
+-Admin paneli ile sisteme kayıtlı kullanıcıları görebilirsiniz.
 
 # Ne ile geliştirildi?
 Python, Flask ve SQLite kullanıldı. 
@@ -57,7 +57,9 @@ server {
 
 4) sudo ln -s /etc/nginx/sites-available/minictf /etc/nginx/sites-enabled
 5) sudo systemctl restart nginx
-5.1) sudo ufw delete allow 5000 (Her ihtimale karşı 5000 portunu firewall'dan izin veriyoruz)
-5.2) sudo ufw allow 'Nginx Full'
+
+(İsteğe bağlı)
+- sudo ufw delete allow 5000 (Her ihtimale karşı 5000 portunu firewall'dan izin veriyoruz)
+- sudo ufw allow 'Nginx Full'
 
 Ve artık sunucumuz hazır!
